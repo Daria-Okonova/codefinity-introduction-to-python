@@ -9,9 +9,9 @@ p_price = "$5.40"
 i = items.split(", ")
 c = categories.split(", ")
 
-candy1 = i[0]
-candy2 = i[1]
-dry_goods = i[2]
+candy1 = items[0:9]
+candy2 = items[11:20]
+dry_goods = items[22:]
 
 cat1 = c[0]
 cat2 = c[1]
